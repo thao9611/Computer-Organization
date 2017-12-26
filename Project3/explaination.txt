@@ -1,0 +1,3 @@
+int LUHazard:boolean variable for Load Use Hazard. If LUHAzard is TRUE, then PIPE_STALL should be considered.
+extern CPU_State PRE_STATE:the previous state of CPU so eachh pipeline can work on instead of working on the current state
+extern int END_BIT: only become TRUE when the INSTRUCTION_COUNT reaches the MAX_INSTRUCTION_NUM 
